@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.AppTecsup.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@drawable/layout_bg1"
+    android:theme="@style/Theme.AppTecsup.AppWidgetContainer">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:orientation="vertical"
+     android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:layout_height="80dp">
+      <LinearLayout
+          android:layout_width="40dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="20dp">
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:src="@drawable/imagen5"
+             />
+
+      </LinearLayout>
+
+       <TextView
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="10dp"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif-black"
+           android:text="De la profundidad del espcio a las paredes  de una galeria"
+           android:textSize="20sp"
+           android:textColor="@color/black"
+           android:lines="2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+   </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:gravity="center"
+             android:lines="4"
+             android:text="La artista Ashley Zelinskie está ayudando a los científicos de la NASA a compartir su trabajo con audiencias más amplias. La artista Ashley Zelinskie está ayudando a los científicos de la NASA a compartir su trabajo con audiencias más amplias."/>
+     </LinearLayout>
+
+ </LinearLayout>
+
+
+
+</RelativeLayout>

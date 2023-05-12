@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.AppTecsup.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:background="@drawable/layout_bg2"
+    android:theme="@style/Theme.AppTecsup.AppWidgetContainer">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/georginademo"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="THE NEW DORK TIMES"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            android:text="La artista Ashley Zelinskie está ayudando a los científicos de la NASA a compartir su trabajo con..."
+            />
+
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:paddingTop="20dp"
+                android:paddingStart="5dp"
+                android:paddingBottom="40dp"
+                android:src="@drawable/imagen3" />
+
+    </LinearLayout>
+</RelativeLayout>
